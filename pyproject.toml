@@ -7,6 +7,11 @@ authors = ["Ahmed Elsayed"]
 [tool.poetry.dependencies]
 python = "3.10.*"
 pandas = "^1"
+tensorflow = "^2.15.0.post1"
+scipy = "^1.12.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "*"
